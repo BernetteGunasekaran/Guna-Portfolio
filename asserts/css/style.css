@@ -143,3 +143,59 @@ color: #1DA1F2;
 .hero-button button{
   margin-right: 10px;
 }
+
+/* about me section */
+
+.about-section{
+  background-color: #22282f;
+  color: #fff;
+  padding: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.about-section img{
+  width:200px;
+  border: 2px solid var(--primary);
+  /* border-radius: 50%; */
+  box-shadow: 3px 5px 40px #275168;
+  }
+  .about-section__desc{
+    width: 450px;
+    margin-left: 50px;;
+  }
+  .about-section__desc h4{
+    font-size: 30px;
+    font-family: 600;   
+
+  }
+   .about-section__desc h4>span{
+    color: var(--primary);
+   }
+  .about-section__desc ul{
+    list-style: none;
+    margin-bottom: 35px;
+  }
+
+  .about-section__desc li{
+    margin-bottom:8px;
+    color: grey;
+  }
+
+  .about-section__desc li>a{
+    text-decoration: none;
+    color: grey;
+  }
+
+   .about-section__desc li>a:hover{
+   
+    color:var(--primary);
+  }
+
+   .about-section__desc li>strong{
+
+    color: #fff;
+
+   }
