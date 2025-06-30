@@ -274,7 +274,6 @@ ul.social-icons {
 	color: var(--primary);
 
 }
-
 .work-section-box>a {
 	text-decoration: none;
 	color: #feda75;
@@ -284,12 +283,42 @@ ul.social-icons {
 
 .work-section-box__icon {
 	background-color: var(--primary);
-	padding: 3px;
+	padding: 8px;
 	border-radius: 50%;
-
-
 }
-
 .work-section-box__icon:hover {
 	background-color: var(--primary-hover);
 }
+.contact-section{
+	background-color:#14171c;
+	padding: 40px;	
+	color: #fff;
+	text-align: center;
+}
+.contact-section h4{
+	font-size: 30px;
+	margin: 10px 0;;
+}
+.contact-section h4 span{
+	color: var(--primary);
+}
+.contact-section form input,textarea{
+	padding: 5px 10px;
+	outline: none;
+	border: none;
+	border-radius: 2px;
+	width: 400px;
+	margin-bottom: 10px;
+	resize: none;	
+}
+footer{
+	background-color: var(--dark-primary);
+	color: gray;
+	padding: 20px 0;
+	text-align: center;
+}
+footer a{
+	text-decoration: none;
+	color: var(--primary);
+}
+
