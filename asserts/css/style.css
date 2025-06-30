@@ -9,7 +9,9 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-
+ html{
+	scroll-behavior: smooth;
+ }
 body {
 
 	min-height:100dvh;
@@ -21,7 +23,7 @@ header {
 	padding: 20px;
 	color: #fff;
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-evenly;	
 }
 
 header .logo {
@@ -175,8 +177,8 @@ ul.social-icons {
 
 .about-section__desc {
 	width: 450px;
-	margin-left: 50px;
-	;
+	margin-left: 100px;
+	
 }
 
 .about-section__desc h4 {
@@ -320,5 +322,49 @@ footer{
 footer a{
 	text-decoration: none;
 	color: var(--primary);
+}
+
+@media only screen and  (max-width: 600px)
+{
+	header{
+		flex-direction: column
+
+	}
+
+	header>*{
+		margin-bottom: 10px;		
+	}
+	section.hero-section{
+		flex-direction: column;
+		padding: 40px;
+
+	}
+
+	.about-section{
+		flex-direction:column;
+	}
+
+	.about-section__desc{
+		margin-top: 10px;
+	}
+
+	/* my works */
+
+	.work-section-items{
+		flex-direction: column;
+		align-items: center;
+		
+	}
+
+	.work-section-box{
+		margin-bottom: 10px;
+		width: 100%;
+		
+	}
+.contact-section form input,textarea{
+
+	width: 100%;
+}
+
 }
 
