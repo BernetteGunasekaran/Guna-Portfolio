@@ -29,6 +29,8 @@ header {
 	align-items: center;
 }
 
+
+
 header .logo {
 	font-weight: 600;
 	color: var(--primary);
