@@ -176,8 +176,8 @@ ul.social-icons {
 }
 
 .about-section__desc {
-	width: 450px;
-	margin-left: 100px;
+flex-direction: column;
+	margin-left: 50px;
 	
 }
 
@@ -342,10 +342,14 @@ footer a{
 
 	.about-section{
 		flex-direction:column;
+		
 	}
+	
 
 	.about-section__desc{
 		margin-top: 10px;
+		margin-left: 0;
+		
 	}
 
 	/* my works */
