@@ -20,10 +20,13 @@ body {
 
 header {
 	background-color: var(--dark-primary);
-	padding: 20px;
+	padding: 15px;
 	color: #fff;
 	display: flex;
+	position: fixed;
+	width: 100%;
 	justify-content: space-evenly;	
+	align-items: center;
 }
 
 header .logo {
@@ -61,7 +64,7 @@ header li a:hover {
 	color: white;
 	display: flex;
 	align-items: center;
-	padding: 20px 120px 0 200px
+	padding: 30px 120px 0 200px
 }
 
 .hero-section__title {
@@ -181,7 +184,7 @@ flex-direction: column;
 	
 }
 
-.about-section__desc h4 {
+.about-section.about-section__desc div h4 {
 	font-size: 30px;
 	font-family: 600;
 
@@ -337,6 +340,8 @@ footer a{
 	section.hero-section{
 		flex-direction: column;
 		padding: 40px;
+		padding-top: 110px;
+	
 
 	}
 
